@@ -1,3 +1,5 @@
+import { chroma } from "./deps.ts";
+
 export type Color = "primary" | "secondary" | "tertiary" | "accent" | "neutral" | "base";
 
 export type FontStyle = "italic" | "bold" | "underlined";
